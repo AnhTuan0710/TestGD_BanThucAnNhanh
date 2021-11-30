@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+body{
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    width: 1245px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.header{
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    align-content: center;
+    /* background-color: red; */
+}
+.container{
+    display: flex;
+}
+
+.container .logo{
+    font-size: 20px;
+    padding-left: 20px;
+    width: 30%;
+    /* color: rgb(255, 94, 0); */
+}
+.container .search{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    height: 25px;
+    margin:15px 0px;
+    
+}
+.searchItem{
+    margin: 0px 20px;
+    padding: 0px 10px;
+}
+.container input{
+    margin-left:10px;
+    width: 60%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+.container select{
+    border-radius: 4px;
+}
+.container button{
+    border-radius: 5px;
+    background-color:rgb(238, 37, 23);
+    color: white;
+    width: 12%;
+}
+.container .action {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 0px 50px;
+    margin-right: 10px;
+}
+.container .action .login{
+    margin-right: 20px;
+    font-size: 25px;
+    border-left: black 2px solid ;
+    padding: 0px 30px 0 20px;
+    height: 25px;
+}
+.container .action .gioHang{
+    font-size: 25px;
+    border-left: black 2px solid ;
+    padding:  0px 30px 0 20px;
+    height: 25px;
+}
+.header_menu{
+    width: 100%;
+    background-color: rgb(255, 102, 0);
+    margin-top: 30px;
+}
+.container2{
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+.menu{
+    width: 80%;
+}
+.menu_List {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 10px;
+    padding: 0px 20px;
+}
+.menu_item{
+    margin:  0px 20px;
+    font-size: large;
+    font-style: normal; 
+}
+.menu_item a{
+    color: white;
+}
+.menu_item a:hover{
+    color: black;
+}
+.contact{
+    width: 20%;
+    font-size: 20px;
+    margin-top: 10px;
+    display: flex;
+    color: white;
+}
+.contact a{
+    color: white;
+    margin-right: 20px ;
+}
+.contact a:hover{
+    color: black;
+}
+.content{
+    text-align: center;
+}
+.content .banner{
+    width: 90%;
+    height: 600px;
+    margin-top: 20px;
+}
+.content2{
+    margin-top: 50px;
+}
+.content2 .sp_List{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 50px 100px;
+    font-size: 20px;
+}
+.content2 .sp{
+    color: red;
+}
+.content2 img{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 1px solid #bdbaba;
+    /* transition: 0.05s; */
+    object-fit: cover;
+}
+.content2 img:hover{
+    background-color: #bdbaba;
+    transition: 0.5s;
+    transform: scale(1.1);
+    opacity: 0.8;
+}
+.thongTin{
+    margin: 70px 100px;
+    display: flex;
+    flex-direction: row;
+    padding: 0px 30px;
+    font-size: 17px;
+}
+.thongTin .icon_tt{
+    margin: 0px 10px ;
+    height: 200px;
+    border-right: 1px solid #e2dada;
+}
+.thongTin .icon_tt .icon{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: black;
+}
+.thongTin .icon_tt h3{
+    margin: 20px 0px;
+}
+.footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(78, 68, 68);
+    display: flex;
+    flex-direction: row;
+}
+.footer .contact{
+    text-align: left;
+    width: 35%;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    justify-content: flex-start;
+    color: rgb(233, 158, 20);
+    font-size: 17px;
+}
+.footer .contact b{
+    color: black;
+}
+
+.footer .tag{
+    color: rgb(233, 158, 20);
+    padding: 20px;
+    text-align: left;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.footer .tag b{
+    color: black;
+}
+.footer .tag p{
+    display: flex;
+    justify-content: space-between;
+}
+.footer .tag i{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.footer .map{
+    width: 40%;
+    padding: 20px;
+    color: rgb(233, 158, 20);
+    text-align: left;
+}
+.footer .map img{
+    width: 400px;
+    height: 200px;
+}
+
+
+
