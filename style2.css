@@ -14,7 +14,7 @@ a {
 body{
     /* font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Slab', serif; */
-    width: 1245px;
+    width: 1200px;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -191,6 +191,7 @@ body{
     background-color: rgb(78, 68, 68);
     display: flex;
     flex-direction: row;
+    text-align: left;
 }
 .footer .contact{
     text-align: left;
@@ -220,7 +221,7 @@ body{
 }
 .footer .tag p{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .footer .tag i{
     margin-left: 20px;
@@ -237,6 +238,10 @@ body{
     width: 400px;
     height: 200px;
 }
-
+.sanPham{
+    width: 100%;
+    background-color: red;
+    text-align: left;
+}
 
 
